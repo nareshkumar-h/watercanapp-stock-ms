@@ -33,6 +33,7 @@ public class StockService {
 		int availcans = 0;
 
 		Stock stock = list.get(0);
+		availcans=stock.getAvailableCans();
 
 		int newcans = availcans + updatecans;
 
